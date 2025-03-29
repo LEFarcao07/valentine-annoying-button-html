@@ -1,4 +1,6 @@
-**Web Demo:** [Live Preview](https://lefarcao07.github.io/valentine-annoying-button-html/)
+**Preview Web:** [link](https://lefarcao07.github.io/valentine-annoying-button-html/)
+
+**Mobile & Desktop:** ✅
 
 ## ✨ Fitur Utama
 

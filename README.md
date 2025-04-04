@@ -1,28 +1,55 @@
-**Preview Web:** [link](https://lefarcao07.github.io/valentine-annoying-button-html/)
+**Demo Web:** [link](https://lefarcao07.github.io/valentine-annoying-button-html/)
 
-**Mobile & Desktop:** ✅
+**Mobile & Desktop** ✅
+
+**Hanya 1 File** ✅
+
+---
+
+### 📌 Mengganti `your_no` pada Link WhatsApp
+
+Di dalam file cari **your_no**,
+Untuk membuat link WhatsApp dengan pesan dari **Target** Valentine anda, Anda harus mengganti `your_no` dengan nomor WhatsApp **Anda**.
+
+#### ✅ Contoh Penggunaan:
+```html
+https://wa.me/628.....?text=${encodedMessage}
+```
+Jika nomor WhatsApp Anda **08......**, maka harus diubah menjadi **628.....**.
+
+#### ⚠️ Kesalahan yang Harus Dihindari:
+❌ `https://wa.me/+6281234567890?text=${encodedMessage}` (Jangan pakai `+`)
+
+❌ `https://wa.me/081234567890?text=${encodedMessage}` (Jangan pakai angka `0` di depan)
+
+---
 
 ## ✨ Fitur Utama
 
+### 💌 0. Custom & Pilihan Ajakan Valentine  
+- Pesan ajakan romantis yang bisa disesuaikan.  
+- Berupa pesan teks.
+- Tombol pilihan ajakan berdasarkan kategori.  
+
 ### 🎵 1. Backsound Romantis
 - Musik otomatis dimainkan saat halaman dibuka.
-- Kontrol untuk memutar atau menghentikan lagu.
+- Musik yang mengulang saat sudah habis.
 - Bisa menggunakan lagu custom sesuai keinginan.
 
 ### 🎬 2. Splash Screen Awal
 - Efek transisi indah saat website pertama kali dibuka.
-- Bisa menampilkan animasi teks atau logo romantis.
+- Sebagai trigger musik background.
 
 ### 🖼️ 3. Foto/GIF Spesial
 - Menampilkan foto atau GIF pilihan yang menggambarkan kenangan spesial.
-- Bisa ditambahkan efek animasi saat foto muncul.
+- Bisa diganti sesuai keinginan dalam berupa link.
 
 ### ❌ 4. Tombol "Anti No" (Tidak Bisa Ditolak)
 - Jika ada pilihan "Yes" dan "No", tombol "No" akan bergerak menjauh saat di-hover.
 - Membuat pengguna hanya bisa memilih "Yes".
 
 ### 🎇 5. Background Animasi
-- Efek animasi romantis seperti **hujan hati**, **bokeh love**, atau **gradient bergerak**.
+- Efek animasi romantis seperti animasi hati.
 - Bisa dikustomisasi dengan berbagai efek CSS atau JavaScript.
 
 ### 💞 6. Sentuhan Interaktif
@@ -31,8 +58,7 @@
 - Muncul teks atau emoji saat pengguna berinteraksi dengan halaman.
 
 ### 🖱️ 7. Cursor Love
-- Mengubah cursor menjadi ikon **hati** atau menampilkan efek **jejak cinta** saat bergerak.
-- Bisa ditambahkan partikel animasi untuk efek lebih menarik.
+- Mengubah cursor menjadi ikon hati.
 
 ---
 
@@ -48,6 +74,7 @@
 ---
 
 ## 🎁 Customization
+- **Nomor Whatsapp Anda**
 - **Ganti lagu**
 - **Ubah GIF/Foto** 
 - **Modifikasi warna & efek**

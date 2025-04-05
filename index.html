@@ -619,7 +619,8 @@
       </audio>
     </div>
     <script>
-      const resources = [
+      window.addEventListener("DOMContentLoaded", function () {
+        const resources = [
         "https://raw.githubusercontent.com/LEFarcao07/valentine-annoying-button-html/refs/heads/main/assets/img/yes.gif",
         "https://raw.githubusercontent.com/LEFarcao07/valentine-annoying-button-html/refs/heads/main/assets/img/love.gif",
         "https://github.com/LEFarcao07/valentine-annoying-button-html/raw/refs/heads/main/assets/music/song.mp3",
@@ -671,8 +672,7 @@
           xhr.send();
         });
       }
-
-      window.addEventListener("DOMContentLoaded", function () {
+      
         const loadPromises = resources.map((url) => loadResource(url));
 
         setTimeout(() => {
